@@ -208,13 +208,15 @@ I worked as the **Group Leader** and was responsible for developing the **Room M
 
 # 👥 Team Members
 
-| Team Member          | Responsibility                     |
-| -------------------- | ---------------------------------- |
-| **Perera O. S. G**   | **Room Management / Group Leader** |
-| **Perera M. I. P**   | Student Management                 |
-| **Perera P.B.H.N.S** | Fee Management                     |
-| **Perera P.S.K**     | Visitor Management                 |
-| **Perera R.K.O.C**   | Maintenance Management             |
+| Team Member                                          | Responsibility                     |
+| ---------------------------------------------------- | ---------------------------------- |
+| **Perera O. S. G**                                   | **Room Management / Group Leader** |
+| [**Perera M. I. P**](https://github.com/imanpperera) | Student Management                 |
+| **Perera P.B.H.N.S**                                 | Fee Management                     |
+| **Perera P.S.K**                                     | Visitor Management                 |
+| **Perera R.K.O.C**                                   | Maintenance Management             |
+
+> GitHub profiles can be added for the remaining team members when their usernames are available.
 
 ---
 
@@ -401,10 +403,10 @@ Possible improvements include:
 
 Additional project documentation can be found in the `docs/` directory.
 
-Available documentation may include:
+Available documentation includes:
 
 * Project report
-* Presentation
+* Project presentation
 * Application screenshots
 
 ---
@@ -429,9 +431,9 @@ This project provided us with valuable practical experience in applying C progra
 
 ### CampusNest Development Team
 
-**Perera O. S. G — Group Leader & Room Management**
+[**Perera O. S. G — Group Leader & Room Management**](https://github.com/SavinduGihan)
 
-**Perera M. I. P — Student Management**
+[**Perera M. I. P — Student Management**](https://github.com/imanpperera)
 
 **Perera P.B.H.N.S — Fee Management**
 
