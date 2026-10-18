@@ -1,89 +1,29 @@
 # 🏠 CampusNest – Smart Hostel Management System
 
-<p align="center">
-  <strong>A Console-Based Smart Hostel Management System Developed in C</strong>
-  <br/>
-  IN1101 – Programming Fundamentals | 1st Year, 1st Semester
-</p>
+This repository contains **CampusNest**, a console-based Smart Hostel Management System developed in C as a group project for **IN1101 – Programming Fundamentals** during the 1st Year, 1st Semester at the University of Moratuwa.
 
----
+The system provides a menu-driven interface for managing student records, hostel rooms, fees, visitors, and maintenance requests.
 
-## 📌 About the Project
+## System Modules
 
-**CampusNest** is a console-based Smart Hostel Management System developed as a group project for IN1101 – Programming Fundamentals.
+- **Student Management:** Register, view, search, update, delete, and sort student records.
+- **Room Management:** Manage room records, track availability, update room status, and handle room allocation-related information.
+- **Fee Management:** Record fees, update payment status, search fee records, and generate summaries.
+- **Visitor Management:** Register, view, search, delete, and organize visitor records.
+- **Maintenance Management:** Manage maintenance requests, update request status, and organize requests by priority.
 
-The system provides a menu-driven interface for managing hostel operations, including student records, rooms, fees, visitors, and maintenance requests.
+## Technologies & Concepts
 
-## ⚙️ System Modules
-
-### 👨‍🎓 1. Student Management
-- Register, view, search, update, and delete student records.
-- Search students by ID or name.
-- Sort student records by ID.
-
-### 🏠 2. Room Management
-- Add, view, search, and delete room records.
-- Track room availability and update room status.
-- Manage room allocation-related information.
-- Sort room records.
-
-### 💰 3. Fee Management
-- Record and view fee information.
-- Search fees by student.
-- Update payment status.
-- Generate fee summaries and sort records by amount.
-
-### 👥 4. Visitor Management
-- Register, view, search, and delete visitor records.
-- Search visitors by student.
-- Generate visitor counts and sort records by date.
-
-### 🔧 5. Maintenance Management
-- Add, view, search, and delete maintenance requests.
-- Update request status and manage priorities.
-- Generate summaries and sort requests by priority.
-
----
-
-## 🛠️ Technologies & Concepts
-
-**Language:** C
-
-**Concepts used:**
+- **Language:** C
 - Structures and arrays
 - Functions and pointers
-- String and character handling
+- String handling
 - Input validation
 - Searching and sorting
 - Menu-driven and modular programming
+- Linear search and bubble sort
 
-**Algorithms:** Linear search, bubble sort, and string comparison.
-
----
-
-## 🖥️ Application Screenshots
-
-### Main Menu
-![Main Menu](docs/screenshots/01-main-menu.png)
-
-### Student Management
-![Student Management](docs/screenshots/02-student-management.png)
-
-### Room Management
-![Room Management](docs/screenshots/03-room-management.png)
-
-### Fee Management
-![Fee Management](docs/screenshots/04-fee-management.png)
-
-### Visitor Management
-![Visitor Management](docs/screenshots/05-visitor-management.png)
-
-### Maintenance Management
-![Maintenance Management](docs/screenshots/06-maintenance-management.png)
-
----
-
-## 👨‍💻 My Contribution
+## My Contribution
 
 I served as the **Group Leader** and developed the **Room Management module**.
 
@@ -92,24 +32,23 @@ My responsibilities included:
 - Room availability tracking and status updates
 - Room searching and sorting
 - Room allocation-related functionality
-- Room data validation
-- Coordinating the team and supporting module integration
+- Input validation
+- Team coordination and module integration
 
-## 👥 Team Members
+## Team Members
 
 | Team Member | Responsibility |
 |---|---|
-| **Perera O. S. G** | **Group Leader / Room Management** |
+| **Perera O. S. G** | Group Leader / Room Management |
 | [Perera M. I. P](https://github.com/imanpperera) | Student Management |
 | Perera P.B.H.N.S | Fee Management |
 | Perera P.S.K | Visitor Management |
 | Perera R.K.O.C | Maintenance Management |
 
----
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
+
 - GCC compiler or another compatible C compiler
 - Terminal or command prompt
 
@@ -120,14 +59,14 @@ git clone https://github.com/SavinduGihan/CampusNest-Smart-Hostel-Management-Sys
 cd CampusNest-Smart-Hostel-Management-System
 ```
 
-### Compile the Program
+### Compile and Run
+
+Navigate to the source directory:
 
 ```bash
 cd src
 gcc campusnest.c -o campusnest
 ```
-
-### Run the Application
 
 **Windows**
 ```bash
@@ -139,44 +78,25 @@ campusnest.exe
 ./campusnest
 ```
 
----
-
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 Through this project, we gained practical experience in:
 - Applying C programming fundamentals
 - Managing records using structures and arrays
 - Implementing searching and sorting operations
-- Validating user input and handling errors
+- Validating input and handling errors
 - Organizing code into functions and modules
-- Collaborating on a group software project
-- Demonstrating and explaining our implementation during the project presentation and viva
+- Team collaboration and software integration
+- Presenting and explaining a software project
 
----
+## Project Information
 
-## 📌 Project Information
-
-| Category | Details |
-|---|---|
-| Course | IN1101 – Programming Fundamentals |
-| Academic Year | 1st Year |
-| Semester | 1st Semester |
-| Project Type | Group Project |
-| Language | C |
-| Application | Console-based |
-| Status | Completed |
-
----
-
-## 👨‍💻 Developed By
-
-**CampusNest Development Team**
-
-- [Perera O. S. G — Group Leader & Room Management](https://github.com/SavinduGihan)
-- [Perera M. I. P — Student Management](https://github.com/imanpperera)
-- Perera P.B.H.N.S — Fee Management
-- Perera P.S.K — Visitor Management
-- Perera R.K.O.C — Maintenance Management
+- **Course:** IN1101 – Programming Fundamentals
+- **Academic Level:** 1st Year, 1st Semester
+- **Project Type:** Group Project
+- **Programming Language:** C
+- **Application Type:** Console-based
+- **Status:** Completed
 
 ---
 
